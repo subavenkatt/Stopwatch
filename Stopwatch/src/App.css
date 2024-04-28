@@ -1,0 +1,42 @@
+.full{
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./assets/clock.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.full{
+    text-align: center;
+}
+.f{
+    font-size:xx-large;
+}
+.start,.stop,.re
+{
+   margin:10px;
+   padding:10px;
+   border-style:solid;
+   border-radius: 5px;
+   cursor: pointer;
+}
+.box
+{
+    color:white;
+    padding: 20px;
+}
+.start
+{
+    background-color: rgb(38, 168, 38);
+}
+.stop
+{
+    background-color: rgb(228, 34, 34);
+}
+.re{
+    background-color: rgb(55, 101, 201);
+}
